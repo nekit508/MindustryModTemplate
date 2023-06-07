@@ -117,10 +117,10 @@ subprojects.each { Project project ->
         var APAProps = new Fi(project.file("APA.properties"))
         var GAPAProps = new Fi(rootProject.file("APA.properties"))
         if (GAPAProps.exists()) {
-            APArgs += Arrays.stream(GAPAProps.readString().split(";")).toList()
+            APArgs += Arrays.stream(GAPAProps.readString().split("\n")).toList()
         }
         if (APAProps.exists()) {
-            APArgs += Arrays.stream(APAProps.readString().split(";")).toList()
+            APArgs += Arrays.stream(APAProps.readString().split("\n")).toList()
         }
 
         copyPaths = [
