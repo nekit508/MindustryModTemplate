@@ -76,8 +76,8 @@ android = D:/mods
 
 Пример:
 ```properties
-ProjectName = desktop
-LoadsOutput = files.loads
+ProjectName=desktop
+LoadsOutput=files.loads
 ```
 
 ## Сборка
