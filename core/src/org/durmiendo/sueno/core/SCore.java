@@ -7,6 +7,8 @@ import mindustry.mod.Mod;
 import org.durmiendo.sueno.content.SBlocks;
 import org.durmiendo.sueno.content.SPlanets;
 
+// TODO remove current temperature and write new
+
 public class SCore extends Mod {
     public SCore(){
         // FIXME that's so bad
