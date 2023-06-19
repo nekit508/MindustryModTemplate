@@ -1,4 +1,4 @@
-package org.durmiendo.sueno.content;
+package org.durmiendo.sueno.meta;
 
 
 import mindustry.world.meta.Attribute;
